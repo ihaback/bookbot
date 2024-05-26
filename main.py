@@ -7,7 +7,7 @@ def main():
     character_count_summary = get_character_count_summary(text)
     character_list = get_character_list(character_count_summary)
 
-    print("--- Begin report of books/frankenstein.txt ---")
+    print("--- Begin report for .txt file ---")
     print(f"{number_of_words} words found in the document")
     print("")
     for char in character_list:
